@@ -26,6 +26,8 @@ img_2 = Image.open("assets/img-2.jpg")
 img_3 = Image.open("assets/img-3.jpg")
 
 ## Page Title
+st.set_page_config(page_title = "Delhi vs Sikkim: Energy Analysis",
+    page_icon = "📝")
 st.title("Delhi vs Sikkim:⚡️Energy Analysis")
 st.write("Art Integration Project by [Saurav Maheshkar](https://github.com/SauravMaheshkar) for Grade 12 (2020-21)")
 st.markdown("---")
