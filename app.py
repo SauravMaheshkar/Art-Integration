@@ -176,7 +176,7 @@ def time_series_overall(df1, df2, groupby, dict_features_1, dict_features_2, fil
                               name=f,
                               marker=dict(color=c)
                              ))
-    for f,c in zip(dict_features_2, px.colors.qualitative.D3):
+    for f,c in zip(dict_features_2, px.colors.qualitative.Bold):
         fig.add_traces(go.Scatter(y=temp2[f].values,
                               x=temp2.index,
                               name=f,
